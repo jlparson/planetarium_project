@@ -1,3 +1,4 @@
+import './PlanatariumContainer.css';
 import React, {useState, useEffect} from "react";
 // import { ReactComponent as Logo } from "clientassests/download.jpeg";
 import planet from '../assests/download.jpeg';
@@ -80,7 +81,7 @@ const PlanetariumContainer = () => {
     return(
         <div>
         <a>
-        <img src={planet}/></a>
+        <img src={planet} class="rotate"/></a>
         <h1>hello</h1>
         
         </div>
