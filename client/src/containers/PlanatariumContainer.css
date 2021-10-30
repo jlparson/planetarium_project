@@ -1,4 +1,11 @@
-.rotate {
-    animation: rotation 2s infinite linear;
+#rotate {
+    animation: rotation 2s infinite linear;  
   }
 
+h1{
+  color:white;
+}
+
+a > img{
+  width: 150px;
+}
