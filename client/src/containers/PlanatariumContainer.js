@@ -50,15 +50,16 @@ const PlanetariumContainer = () => {
 
         <div>
         <h1>Our Planatarium</h1>
-            <a><img src={mercury} id="mercury" key="mercury" onClick={() => onClickPlanet("mercury")}/></a>
-            <a><img src={venus} id="venus" key="venus" onClick={() => onClickPlanet("venus")}/></a>
-            <a><img src={earth} id="earth" key="earth" onClick={() => onClickPlanet("earth")}/></a>
-            <a><img src={mars} id="mars" key="mars" onClick={() => onClickPlanet("mars")}/></a>
-            <a><img src={jupiter} id="jupiter" key="jupiter" onClick={() => onClickPlanet("jupiter")}/></a>
-            <a><img src={saturn} id="saturn" key="saturn" onClick={() => onClickPlanet("saturn")}/></a>
-            <a><img src={uranus} id="uranus" key="uranus" onClick={() => onClickPlanet("uranus")}/></a>
-            <a><img src={neptune} id="neptune" key="neptune" onClick={() => onClickPlanet("neptune")}/></a>
-
+        <div className="planetContainer">
+            <a id="mercury"><img src={mercury} className="mercury" key="mercury" onClick={() => onClickPlanet("mercury")}/></a>
+            <a><img src={venus} className="venus" key="venus" onClick={() => onClickPlanet("venus")}/></a>
+            <a><img src={earth} className="earth" key="earth" onClick={() => onClickPlanet("earth")}/></a>
+            <a><img src={mars} className="mars" key="mars" onClick={() => onClickPlanet("mars")}/></a>
+            <a><img src={jupiter} className="jupiter" key="jupiter" onClick={() => onClickPlanet("jupiter")}/></a>
+            <a><img src={saturn} className="saturn" key="saturn" onClick={() => onClickPlanet("saturn")}/></a>
+            <a><img src={uranus} className="uranus" key="uranus" onClick={() => onClickPlanet("uranus")}/></a>
+            <a><img src={neptune} className="neptune" key="neptune" onClick={() => onClickPlanet("neptune")}/></a>
+        </div>
         
         
 

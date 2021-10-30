@@ -4,8 +4,50 @@
 
 h1{
   color:white;
+  padding:10px;
 }
 
 a > img{
   height: 150px;
+}
+
+a:hover{
+  opacity: 70%;
+}
+
+img.mercury{
+  height:20px;
+  padding:20px;
+}
+img.venus{
+  height:40px;
+  padding:20px;
+}
+img.earth{
+  height:40px;
+  padding:20px;
+}
+img.mars{
+  height:30px;
+  padding:20px;
+}
+img.jupiter{
+  height:200px;
+}
+img.saturn{
+  height:200px;
+}
+img.uranus{
+  height:100px;
+  padding:20px;
+}
+img.neptune{
+  height:100px;
+  padding:20px;
+}
+
+.planetContainer{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
 }
