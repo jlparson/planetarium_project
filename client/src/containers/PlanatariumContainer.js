@@ -67,9 +67,8 @@ const PlanetariumContainer = () => {
             <img src={neptune} className="neptune" key="neptune" onClick={() => onClickPlanet("neptune")}/>
 
         </div>
-        
         <div>
-          <PlanetsDetails  planetInfo= { planetInfo}  onClickPlanet = {onClickPlanet} />
+            <PlanetsDetails  planetInfo= { planetInfo}  onClickPlanet = {onClickPlanet} />
         </div>
         <div className="quiz-container">
             <PlanetQuiz />

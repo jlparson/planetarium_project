@@ -132,7 +132,7 @@ const PlanetQuiz = () => {
     return(
         <div className="quiz-section">
             <div className="quiz-header">
-                <h1>Astronomy Quiz</h1>
+                <h2>Astronomy Quiz</h2>
             </div>
             {/* Add showScore first so if we run through all the questions/answers it will
             display the final score */}
