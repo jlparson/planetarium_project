@@ -53,3 +53,11 @@ img.neptune{
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+
+/* CSS for Quiz section */
+.quiz-container{
+  color: white;
+}
+
+/* End of CSS for Quiz section */

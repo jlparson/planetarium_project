@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // Create a Quiz function that contains all quiz questions
 // Use isCorrect to indicate whether answer is true or false
@@ -103,11 +103,71 @@ const PlanetQuiz = () => {
      
     ];
 
-    return(
-        <>
-        </>
-    )
+    // Adding a state object which holds the current question
+    // Set to 0 to start the quiz with the first question in the array
+    const [currentQuestion, setCurrentQuestion] = useState(0);
+    // Add a state object which stores whether we want to display the score
+    // Set to false - change the state in the return after last question
+    const [showScore, setShowScore] = useState(false);
+    // Add a final state object to display the score
+    // Set it to 0 to begin
+    const [score, setScore] = useState(0);
 
+
+    // If the answer option button clicked is true/correct, the player gets 1 point.
+    // Then go through each question in the array until the end, then display final score.
+    const handleAnswerOptionClick = (isCorrect) => {
+		if (isCorrect) {
+			setScore(score + 1);
+		}
+
+		const nextQuestion = currentQuestion + 1;
+		if (nextQuestion < questions.length) {
+			setCurrentQuestion(nextQuestion);
+		} else {
+			setShowScore(true);
+		}
+	};
+
+    return(
+        <div className="quiz-section">
+            <div className="quiz-header">
+                <h1>Astronomy Quiz</h1>
+            </div>
+            {/* Add showScore first so if we run through all the questions/answers it will
+            display the final score */}
+            {showScore ? (
+				<div className='score-section'>
+                    {/* the score over the number of questions */}
+                    You scored {score} out of {questions.length}
+                </div>
+			) : (
+				<>
+					<div className='question-section'>
+						<div className='question-count'>
+                            {/* Goes through each question - current question index plus 1.
+                            This will go through the entire questions array */}
+							<span>Question {currentQuestion + 1}</span>/{questions.length}
+						</div>
+						<div className='question-text'>
+                            {/* For the current question in the question array,
+                            display the question text */}
+                            {questions[currentQuestion].questionText}
+                        </div>
+					</div>
+					<div className='answer-section'>
+                        {/* For the current question in the questions array, we use the map function
+                        to loop through the answers for the current question. We then use the function
+                        handleAnswerOptionClick to check if answer is true or false, adding one point
+                        if it is true. The answer options are displayed as a button */}
+						{questions[currentQuestion].answerOptions.map((answerOption) => (
+                            <button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+                        ))}
+					</div>
+				</>
+			)}
+        </div>
+    )
 }
 
 export default PlanetQuiz
