@@ -5,6 +5,8 @@
 h1{
   color:white;
   padding:10px;
+  margin-bottom: 100px;
+
 }
 
 /* a > img{
@@ -50,4 +52,5 @@ img.neptune{
   display:flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
