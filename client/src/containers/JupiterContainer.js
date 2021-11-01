@@ -5,7 +5,7 @@ const Jupiter = () => {
     return (
         <>
             <h1>This is Jupiter</h1>
-            <img src={jupiter} alt="Jupiter" />
+            <img className="jupiterContainerPlanet" src={jupiter} alt="Jupiter" />
         </>
     );
 };
