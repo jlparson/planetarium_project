@@ -1,5 +1,6 @@
 import './PlanatariumContainer.css';
 import React, {useState, useEffect} from "react";
+import PlanetQuiz from '../components/PlanetQuiz';
 // import { ReactComponent as Logo } from "clientassests/download.jpeg";
 import mercury from '../assests/Mercury.png';
 import venus from '../assests/Venus.png';
@@ -65,9 +66,11 @@ const PlanetariumContainer = () => {
             <a><img src={neptune} className="neptune" key="neptune" onClick={() => onClickPlanet("neptune")}/></a>
 
         </div>
-        
         <div>
-          <PlanetsDetails  planetInfo= { planetInfo}  onClickPlanet = {onClickPlanet} />
+            <PlanetsDetails  planetInfo= { planetInfo}  onClickPlanet = {onClickPlanet} />
+        </div>
+        <div className="quiz-container">
+            <PlanetQuiz />
         </div>
     </>    
 
