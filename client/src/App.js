@@ -11,6 +11,7 @@ import Jupiter from './containers/JupiterContainer';
 import Saturn from './containers/SaturnContainer';
 import Uranus from './containers/UranusContainer';
 import Neptune from './containers/NeptuneContainer';
+import Quiz from './containers/QuizContainer';
 
 function App() {
   return (
@@ -47,6 +48,9 @@ function App() {
           </Route>
           <Route path="/Neptune">
             <Neptune />
+          </Route>
+          <Route path="/Quiz">
+            <Quiz />
           </Route>
         </Switch>
       </div>
