@@ -40,3 +40,30 @@
 .planetInfo {
   color: white
 }
+.planetInfo {
+  color: white
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .jupiter {
+    animation: Planet-logo-spin infinite 20s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mars {
+    animation: Planet-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes Planet-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
