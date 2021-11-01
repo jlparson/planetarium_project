@@ -1,6 +1,6 @@
 import './PlanatariumContainer.css';
 import React, {useState, useEffect} from "react";
-import PlanetQuiz from '../components/PlanetQuiz';
+// import PlanetQuiz from '../components/PlanetQuiz';
 // import { ReactComponent as Logo } from "clientassests/download.jpeg";
 import mercury from '../assests/Mercury.png';
 import venus from '../assests/Venus.png';
@@ -71,7 +71,7 @@ const PlanetariumContainer = () => {
             <PlanetsDetails  planetInfo= { planetInfo}  onClickPlanet = {onClickPlanet} />
         </div>
         <div className="quiz-container">
-            <PlanetQuiz />
+            {/* <PlanetQuiz /> */}
         </div>
     </>    
 
