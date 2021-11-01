@@ -12,6 +12,7 @@ import Saturn from './containers/SaturnContainer';
 import Uranus from './containers/UranusContainer';
 import Neptune from './containers/NeptuneContainer';
 import Quiz from './containers/QuizContainer';
+import SolarSystem from './containers/SolarSystemContainer';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route exact path="/">
             <PlanetariumContainer />
           </Route>
-          <Route path="/about">
+          <Route path="/About">
             <About />
           </Route>
           <Route path="/Mercury">
@@ -51,6 +52,9 @@ function App() {
           </Route>
           <Route path="/Quiz">
             <Quiz />
+          </Route>
+          <Route path="/SolarSystem">
+            <SolarSystem />
           </Route>
         </Switch>
       </div>
