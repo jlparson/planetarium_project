@@ -60,7 +60,7 @@ const PlanetariumContainer = () => {
             <a><img src={venus} className="venus" key="venus" onClick={() => onClickPlanet("venus")}/></a>
             <a><img src={earth} className="earth" key="earth" onClick={() => onClickPlanet("earth")}/></a>
             <a><img src={mars} className="mars" key="mars" onClick={() => onClickPlanet("mars")}/></a>
-            <a className="jupiter" key="jupiter" onClick={() => onClickPlanet("jupiter")}></a>
+            <a><img src={jupiter} className="jupiter" key="jupiter" onClick={() => onClickPlanet("mars")}/></a>
             <a><img src={saturn} className="saturn" key="saturn" onClick={() => onClickPlanet("saturn")}/></a>
             <a><img src={uranus} className="uranus" key="uranus" onClick={() => onClickPlanet("uranus")}/></a>
             <a><img src={neptune} className="neptune" key="neptune" onClick={() => onClickPlanet("neptune")}/></a>
