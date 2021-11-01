@@ -1,21 +1,34 @@
-/* .jupiterContainerPlanet {
-   
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin:auto;
-
-    width:300px;
-    height:300px;
-    background-image:url(https://www.solarsystemscope.com/textures/download/2k_jupiter.jpg);
-    border-radius:50%;
-    background-size:cover;
-    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
-    animation:spin 30s linear alternate infinite;
-
-}
-
-@keyframes spin{
-    100%{background-position:100% ;}
+/* .Parent{
+    display:flex;
 } */
+.pageContainer{
+    width: 60%;
+    margin: auto;
+}
+.text{
+   color:white;
+   padding: 10px;
+
+   margin:0px;
+   
+}
+.jupiter2 {
+   /* top:0;
+   bottom:0;
+   left:0;
+   right:0; */
+   /* padding: 100px; */
+   width:300px;
+   /* margin-top: 50px; */
+   height:300px;
+   position:absolute;
+   margin:40px;
+   background-image:url(https://www.solarsystemscope.com/textures/download/2k_jupiter.jpg);
+   border-radius:50%;
+   background-size:cover;
+   box-shadow: 20px 20px 50px 2px #000 inset, 0 0 20px 2px #000;
+   animation:spin 30s linear alternate infinite;
+}
+@keyframes spin{
+   100%{background-position:50% ;}
+}
