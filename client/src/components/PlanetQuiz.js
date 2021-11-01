@@ -116,6 +116,7 @@ const PlanetQuiz = () => {
 
     // If the answer option button clicked is true/correct, the player gets 1 point.
     // Then go through each question in the array until the end, then display final score.
+    // 'if (isCorrect)' is shorthand for 'if (isCorrect === true)'
     const handleAnswerOptionClick = (isCorrect) => {
 		if (isCorrect) {
 			setScore(score + 1);
