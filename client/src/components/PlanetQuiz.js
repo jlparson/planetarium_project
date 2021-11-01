@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './PlanetQuiz.css'
 
 // Create a Quiz function that contains all quiz questions
 // Use isCorrect to indicate whether answer is true or false
@@ -130,6 +131,14 @@ const PlanetQuiz = () => {
 		}
 	};
 
+    // const handleResetButtonClick = () => {
+    //     PlanetQuiz();
+    // };
+
+    // const handleResetButtonClick = () => {
+    //     PlanetQuiz()
+    // }
+
     return(
         <div className="quiz-section">
             <div className="quiz-header">
@@ -139,8 +148,11 @@ const PlanetQuiz = () => {
             display the final score */}
             {showScore ? (
 				<div className='score-section'>
+                    <div>
                     {/* the score over the number of questions */}
-                    You scored {score} out of {questions.length}
+                    You scored {score} out of {questions.length}!
+                     </div> 
+                    <a href="http://localhost:3000/Quiz"><button className="reset-button" >Reset Quiz</button></a>
                 </div>
 			) : (
 				<>
