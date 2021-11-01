@@ -53,6 +53,7 @@ img.neptune{
   flex-wrap: wrap;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .mercury {
     animation: Planet-logo-spin infinite 20s linear;
@@ -98,3 +99,47 @@ img.neptune{
     transform: rotate(360deg);
   }
 }
+
+
+/* CSS for Quiz section */
+.quiz-container{
+  color: black;
+  width: 600px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.quiz-section{
+  background-color: darkgray;
+  border-radius: 20px;
+}
+
+.question-count{
+  padding-bottom: 5px;
+  font-size: large;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.answer-section{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.answer-section button{
+  background-color: cadetblue;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.answer-section button:hover{
+  opacity: 0.5;
+}
+
+
+/* End of CSS for Quiz section */
+
