@@ -1,3 +1,4 @@
+import './ComparisonItem.css';
 import React from "react";
 import ComparisonContainer from "../containers/ComparisonContainer";
 
@@ -10,11 +11,11 @@ const ComparisonItem = ({planetInfo}) => {
 
     
     return (
-        <div>
+        <div className="comparisonInfo">
             <img src={require(`../assests/${planetInfo.englishName}.png`).default} />   
-            <h3>{planetInfo.englishName}</h3>
+            <h1>{planetInfo.englishName}</h1>
             <h3>{planetInfo.density}</h3>
-            //greatest distance between the planet and the sun */}
+            <h2>Distance from Planet to the sun:</h2>
             <h3>{planetInfo.aphelion}</h3> 
             
             

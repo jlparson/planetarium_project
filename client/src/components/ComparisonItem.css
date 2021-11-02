@@ -1,9 +1,33 @@
+.comparisonContainerMainDiv > h1 {
+    margin: 8px;
+}
+
 p{
     color:white;
 }
 li{
     color:white;
+    list-style-type: none;
+    padding:10px;
+    margin:10px;
+    height: 15px;
+    
 }
-h3{
+li:hover{
+    font-size:30px;
+}
+.comparisonInfo > h3{
     color:white;
 }
+.comparisonInfo > h2{
+    color:white;
+}
+.comparisonInfo > img{
+    height:300px;
+    width:300px;
+}
+.comparisonInfo > h1 {
+    margin:0px;
+}
+
+
