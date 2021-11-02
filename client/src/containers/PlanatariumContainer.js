@@ -12,6 +12,7 @@ import uranus from '../assests/Uranus.png';
 import neptune from '../assests/Neptune.png';
 import PlanetsDetails  from '../components/PlanetsDetails';
 import '../SpinningPlanets.css'
+import ComparisonContainer from './ComparisonContainer';
 
 const PlanetariumContainer = () => {
     const [planets, setPlanets] = useState([]);
@@ -24,8 +25,6 @@ const PlanetariumContainer = () => {
             setPlanets(planets.bodies.filter(planet => planet.isPlanet))});
         
     }
-
-    
     
     const onClickPlanet = function (id){
         fetch(`https://api.le-systeme-solaire.net/rest/bodies/${id}`)
@@ -34,20 +33,10 @@ const PlanetariumContainer = () => {
         
     }
 
-
-
     useEffect(() => {
         getPlanets();
         
     }, [])
-
-    // useEffect(() => {
-    //     onlyPlanest();
-
-    // }, [])
-
-    
-
 
     return(
         
@@ -69,9 +58,7 @@ const PlanetariumContainer = () => {
         </div>
         <div>
             <PlanetsDetails  planetInfo= { planetInfo}  onClickPlanet = {onClickPlanet} />
-        </div>
-        <div className="quiz-container">
-            {/* <PlanetQuiz /> */}
+            {/* <ComparisonContainer /> */}
         </div>
     </>    
 
