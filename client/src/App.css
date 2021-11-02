@@ -65,7 +65,31 @@
   }
 }
 
+.container{
+  background-image: url(./assests/space.png);
+  min-height: 100%;
+  min-width: 100%;
+
+  width: 100%;
+  height: auto;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 
 
 
+.pageContainer{
+  background-image: url(./assests/space.png);
+min-height: 100%;
+min-width: 100%;
+
+width: 100%;
+height: auto;
+
+position: absolute;
+top: 10;
+left: 0;
+}

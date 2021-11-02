@@ -12,11 +12,15 @@ import Saturn from './containers/SaturnContainer';
 import Uranus from './containers/UranusContainer';
 import Neptune from './containers/NeptuneContainer';
 import Quiz from './containers/QuizContainer';
+import ComparisonContainer from './containers/ComparisonContainer';
+import space from './assests/space.png';
 import SolarSystem from './containers/SolarSystemContainer';
 
 function App() {
   return (
+    
     <Router>
+    
       <div className="App">
         <Navbar />
         <Switch>
@@ -38,9 +42,15 @@ function App() {
           <Route path="/Mars">
             <Mars />
           </Route>
-          <Route path="/Jupiter">
-            <Jupiter />
+        
+                
+                <Route path="/Jupiter">
+                
+               
+                <Jupiter />
+              
           </Route>
+        
           <Route path="/Saturn">
             <Saturn />
           </Route>
@@ -50,9 +60,15 @@ function App() {
           <Route path="/Neptune">
             <Neptune />
           </Route>
+
+          
           <Route path="/Quiz">
+          
             <Quiz />
           </Route>
+          <Route path="/PlanetComparison">
+            <ComparisonContainer />
+          </Route> 
           <Route path="/SolarSystem">
             <SolarSystem />
           </Route>
