@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import './PlanetQuiz.css'
+import Confetti from "react-confetti";
+import { useWindowSize } from 'rooks';
+import './PlanetQuiz.css';
 
 // Create a Quiz function that contains all quiz questions
 // Use isCorrect to indicate whether answer is true or false
@@ -114,6 +116,8 @@ const PlanetQuiz = () => {
     // Set it to 0 to begin
     const [score, setScore] = useState(0);
 
+    const { width, height} = useWindowSize()
+    
 
     // If the answer option button clicked is true/correct, the player gets 1 point.
     // Then go through each question in the array until the end, then display final score.
@@ -131,13 +135,7 @@ const PlanetQuiz = () => {
 		}
 	};
 
-    // const handleResetButtonClick = () => {
-    //     PlanetQuiz();
-    // };
 
-    // const handleResetButtonClick = () => {
-    //     PlanetQuiz()
-    // }
 
     return(
         <div className="quiz-section">
@@ -153,6 +151,12 @@ const PlanetQuiz = () => {
                     You scored {score} out of {questions.length}!
                      </div> 
                     <a href="http://localhost:3000/Quiz"><button className="reset-button" >Reset Quiz</button></a>
+
+                    <Confetti
+                        numberOfPieces={200}
+                        width={width}
+                        height={height}
+                        />
                 </div>
 			) : (
 				<>
