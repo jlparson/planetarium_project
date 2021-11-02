@@ -1,6 +1,6 @@
-#rotate {
+/* #rotate {
     animation: rotation 2s infinite linear;  
-  }
+  } */
 
 h1{
   color:white;
@@ -32,10 +32,11 @@ img.mars{
 }
 img.jupiter{
   height:200px;
-  width:auto; 
+  width:auto;  
 }
-img.saturn{
+img.saturn {
   height:200px;
+  padding:20px;
 }
 img.uranus{
   height:100px;
@@ -53,7 +54,7 @@ img.neptune{
   flex-wrap: wrap;
 }
 
-
+/* 
 @media (prefers-reduced-motion: no-preference) {
   .mercury {
     animation: Planet-logo-spin infinite 20s linear;
@@ -73,14 +74,14 @@ img.neptune{
   .mars {
     animation: Planet-logo-spin infinite 20s linear;
   }
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .jupiter {
     animation: Planet-logo-spin infinite 20s linear;
   }
-}
-@media (prefers-reduced-motion: no-preference) {
+} */
+/* @media (prefers-reduced-motion: no-preference) {
   .uranus {
     animation: Planet-logo-spin infinite 20s linear;
   }
@@ -98,7 +99,7 @@ img.neptune{
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 
 

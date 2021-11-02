@@ -1,15 +1,153 @@
-/* .Parent{
-    display:flex;
-} */
-.pageContainer{
-    width: 60%;
-    margin: auto;
-}
+
+
 .text{
    color:white;
    padding: 10px;
+}
 
-   margin:0px;
+.Mercury2 {
+  position:absolute;
+  top: 200px;;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: auto ;
+ 
+ 
+ 
+
+  width:300px;
+  height:300px;
+  background-image:url(https://astropedia.astrogeology.usgs.gov/download/Mercury/Messenger/Global/thumbs/Mercury_MESSENGER_MDIS_Basemap_EnhancedColor_Mosaic_Global_1024.jpg);
+  border-radius:50%;
+  background-size:cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation:spin 30s linear alternate infinite;
+
+}
+
+.Venus2 {
+  position:absolute;
+  top: 200px;;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: auto ;
+ 
+ 
+ 
+
+  width:300px;
+  height:300px;
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/1/1c/Solarsystemscope_texture_8k_venus_surface.jpg);
+  border-radius:50%;
+  background-size:cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation:spin 30s linear alternate infinite;
+
+}
+
+
+.Earth2{
+  position:absolute;
+  top: 250px;;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: auto ;
+ 
+ 
+ 
+
+  width:300px;
+  height:300px;
+  background-image:url(https://1.bp.blogspot.com/-UUXaK5GCj-k/UcsKJRMgkVI/AAAAAAAACfM/sePP_H08JTQ/s1600/1.jpg);
+  border-radius:50%;
+  background-size:cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation:spin 30s linear alternate infinite;
+
+}
+
+.Mars2{
+  position:absolute;
+  top: 250px;;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: auto ;
+ 
+ 
+ 
+
+  width:300px;
+  height:300px;
+  background-image:url(https://web.cortland.edu/flteach/civ/davidweb/images/venusmeb.jpg);
+  border-radius:50%;
+  background-size:cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation:spin 30s linear alternate infinite;
+
+}
+
+.saturn2{
+  position:absolute;
+  top: 250px;;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: auto ;
+ 
+ 
+
+
+}
+
+.Uranus2{
+  position:absolute;
+  top: 250px;;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: auto ;
+ 
+ 
+ 
+
+  width:300px;
+  height:300px;
+  background-image:url(https://www.cteonline.org/download/images/resource/88426/uranus.png);
+  border-radius:50%;
+  background-size:cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation:spin 30s linear alternate infinite;
+
+}
+.Neptune2{
+  position:absolute;
+  top: 250px;;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: auto ;
+ 
+ 
+ 
+
+  width:300px;
+  height:300px;
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/1/1e/Solarsystemscope_texture_2k_neptune.jpg);
+  border-radius:50%;
+  background-size:cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation:spin 30s linear alternate infinite;
+
+}
+
+@keyframes spin{
+    100%{background-position:100% ;}
+
+ 
    
 }
 .jupiter2 {
@@ -31,4 +169,5 @@
 }
 @keyframes spin{
    100%{background-position:50% ;}
+
 }
