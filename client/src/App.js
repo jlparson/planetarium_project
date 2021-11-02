@@ -12,11 +12,8 @@ import Saturn from './containers/SaturnContainer';
 import Uranus from './containers/UranusContainer';
 import Neptune from './containers/NeptuneContainer';
 import Quiz from './containers/QuizContainer';
-<<<<<<< HEAD
 import space from './assests/space.png';
-=======
 import SolarSystem from './containers/SolarSystemContainer';
->>>>>>> develop
 
 function App() {
   return (
