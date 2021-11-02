@@ -1,70 +1,8 @@
- import
-/* body{
-    backgroundImage: "url("../assests/background.jpg")",
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat'
-   */
 
- /* } */
- 
 
- .Parent{
-     display:flex;
-    
-     align-items: center;
-
-    
-
- }
- 
- /* .pageContainer{
-    background-image: url(./assests/space.png);
-  min-height: 100%;
-  min-width: 100%;
-
-  width: 100%;
-  height: auto;
-
-  position: absolute;
-  top: 0;
-  left: 0;
- } */
- 
- .PlanetName{
-    color:white;
-    position: auto
-    
- }
- .PlanetInfotext{
-    
-    color:white;
-   align-self:  flex-end;
-   font-size: 150%;
-
-    
- }
- 
- 
- .jupiter2 {
-    position:absolute;
-    top: 200px;;
-    bottom:0;
-    left:0;
-    right:0;
-    margin: auto ;
-   
-   
-   
-
-    width:300px;
-    height:300px;
-    background-image:url(https://www.solarsystemscope.com/textures/download/2k_jupiter.jpg);
-    border-radius:50%;
-    background-size:cover;
-    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
-    animation:spin 30s linear alternate infinite;
-
+.text{
+   color:white;
+   padding: 10px;
 }
 
 .Mercury2 {
@@ -208,4 +146,28 @@
 
 @keyframes spin{
     100%{background-position:100% ;}
+
+ 
+   
+}
+.jupiter2 {
+   /* top:0;
+   bottom:0;
+   left:0;
+   right:0; */
+   /* padding: 100px; */
+   width:300px;
+   /* margin-top: 50px; */
+   height:300px;
+   position:absolute;
+   margin:40px;
+   background-image:url(https://www.solarsystemscope.com/textures/download/2k_jupiter.jpg);
+   border-radius:50%;
+   background-size:cover;
+   box-shadow: 20px 20px 50px 2px #000 inset, 0 0 20px 2px #000;
+   animation:spin 30s linear alternate infinite;
+}
+@keyframes spin{
+   100%{background-position:50% ;}
+
 }

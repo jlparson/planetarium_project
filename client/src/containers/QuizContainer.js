@@ -1,4 +1,3 @@
-// import mercury from '../assests/Mercury.png';
 import PlanetQuiz from "../components/PlanetQuiz";
 
 const Quiz = () => {
