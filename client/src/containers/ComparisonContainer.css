@@ -2,10 +2,6 @@
     margin: 8px;
 }
 
-
-
-
-
 .vs{
     border: 1px solid white;
     height: 35px;
@@ -14,6 +10,10 @@
     display:flex;
     justify-content: space-around;
     align-items: stretch;
+}
+.firstComparisonItem > h2{
+   color:white;
+   text-align: center;
 }
 ul{
     width: 200px;

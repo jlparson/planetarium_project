@@ -60,13 +60,14 @@ const ComparisonContainer = ()=> {
             <div className="comparisonItemParent">
             
                 <div className="firstComparisonItem">
+                {/* <h2>List 1</h2> */}
                     <ul>
                         {planetOptions} 
                     </ul> 
                     
                 </div>
                 <ComparisonItem  planetInfo= {planetInfo}  />
-                <h1 className="vs">VS</h1>
+                {/* <h1 className="vs">VS</h1> */}
                 <div className="secondComparisonItem">
                     <ul>
                         {planetOptions2} 
