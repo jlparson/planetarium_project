@@ -42,12 +42,12 @@ const ComparisonContainer = ()=> {
 
     const planetOptions = planets.map((planet) => {
         return (
-            <li onClick={() => onClickPlanet(planet.englishName)}>{planet.englishName}</li>
+            <li className="planetListName" onClick={() => onClickPlanet(planet.englishName)}>{planet.englishName}</li>
         )
     })
     const planetOptions2 = planets.map((planet) => {
         return (
-            <li onClick={() => onClickPlanet2(planet.englishName)}>{planet.englishName}</li>
+            <li className="planetListName" onClick={() => onClickPlanet2(planet.englishName)}>{planet.englishName}</li>
         )
     })
 
@@ -61,7 +61,7 @@ const ComparisonContainer = ()=> {
             
                 <div className="firstComparisonItem">
                 {/* <h2>List 1</h2> */}
-                    <ul>
+                    <ul className="ulcontainer">
                         {planetOptions} 
                     </ul> 
                     
@@ -69,7 +69,7 @@ const ComparisonContainer = ()=> {
                 <ComparisonItem  planetInfo= {planetInfo}  />
                 {/* <h1 className="vs">VS</h1> */}
                 <div className="secondComparisonItem">
-                    <ul>
+                    <ul className="ulcontainer">
                         {planetOptions2} 
                     </ul> 
                     

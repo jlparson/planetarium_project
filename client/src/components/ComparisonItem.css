@@ -1,8 +1,8 @@
 
-p{
+.firstComparisonItem > p, .secondComparisonItem > p{
     color:white;
 }
-li{
+li.planetListName {
     color:white;
     list-style-type: none;
     padding:10px;
@@ -11,7 +11,7 @@ li{
     cursor: pointer;
     
 }
-li:hover{
+li.planetListName:hover{
     font-size:30px;
 }
 .comparisonInfo > h1{

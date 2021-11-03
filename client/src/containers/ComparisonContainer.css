@@ -15,7 +15,10 @@
    color:white;
    text-align: center;
 }
-ul{
-    width: 200px;
+
+
+ul.ulcontainer{
+    width: 210px;
 }
+
 
