@@ -14,22 +14,34 @@ import PlanetsDetails  from '../components/PlanetsDetails';
 import '../SpinningPlanets.css'
 import ComparisonContainer from './ComparisonContainer';
 
+
 const PlanetariumContainer = () => {
     const [planets, setPlanets] = useState([]);
     let [planetInfo, setPlanetInfo] = useState(null);
+
+
 
     const getPlanets = function(){
         fetch('https://api.le-systeme-solaire.net/rest/bodies/')
         .then(res => res.json())
         .then(planets => {
-            setPlanets(planets.bodies.filter(planet => planet.isPlanet))});
+            setPlanets(planets.bodies.filter(planet => (planet.isPlanet && !planet.englishName.startsWith(1) && !planet.englishName.startsWith("P"))))});
+            // 1:Find all stellar bodies that are planets
+            // 2: Add our custom data to each planet
+            // loop through the planets, and using the englishName, get the flavolurtext out from the imported extraPlanetData
+            // 3: set the planets as before
+            
         
     }
+    console.log(planets);
     
     const onClickPlanet = function (id){
         fetch(`https://api.le-systeme-solaire.net/rest/bodies/${id}`)
         .then(res => res.json())
-        .then(planetInfo => setPlanetInfo(planetInfo))
+        .then(planetInfo => {
+            // update the planetinfo with the paragraph - also can use the englishName
+            setPlanetInfo(planetInfo)
+        })
         
     }
 
@@ -42,7 +54,7 @@ const PlanetariumContainer = () => {
         
     <>
         <div>
-        <h1>Our Planatarium</h1>
+        <h1>Our Planetarium</h1>
         <h2>Click on a planet for more more information on it.</h2>
         </div>
         <div className="planetContainer">

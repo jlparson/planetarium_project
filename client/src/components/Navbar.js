@@ -10,6 +10,7 @@ const Navbar = () => {
                 <a href="/Quiz">Quiz</a>
                 <a href="/PlanetComparison">Planet Comparison</a>
                 <a href="/SolarSystem">Solar System</a>
+                <a href="/UsefulLinks">Useful Links</a>
             </div>
         </nav>
     );

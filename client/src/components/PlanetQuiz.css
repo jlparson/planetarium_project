@@ -16,7 +16,8 @@
   .quiz-header{
     background-color: cadetblue;
     padding: 5px;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
   
   .question-count{
