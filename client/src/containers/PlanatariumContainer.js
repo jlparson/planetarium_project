@@ -18,13 +18,20 @@ const PlanetariumContainer = () => {
     const [planets, setPlanets] = useState([]);
     let [planetInfo, setPlanetInfo] = useState(null);
 
+
+
     const getPlanets = function(){
         fetch('https://api.le-systeme-solaire.net/rest/bodies/')
         .then(res => res.json())
         .then(planets => {
-            setPlanets(planets.bodies.filter(planet => planet.isPlanet))});
+            setPlanets(planets.bodies.filter(planet => (planet.isPlanet && !planet.englishName.startsWith(1) && !planet.englishName.startsWith("P"))))});
+            // 1:Find all stellar bodies that are planets
+            // 2: Add our custom data to each planet
+            // 3: set the planets as before
+            
         
     }
+    console.log(planets);
     
     const onClickPlanet = function (id){
         fetch(`https://api.le-systeme-solaire.net/rest/bodies/${id}`)
