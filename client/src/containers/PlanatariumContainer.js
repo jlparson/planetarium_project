@@ -58,14 +58,14 @@ const PlanetariumContainer = () => {
         <h2 className="subheader">Click on a planet for more more information on it.</h2>
         </div>
         <div className="planetContainer">
-            <a><img src={mercury} className="mercury" key="mercury" onClick={() => onClickPlanet("mercury")}/></a>
-            <a><img src={venus} className="venus" key="venus" onClick={() => onClickPlanet("venus")}/></a>
-            <a><img src={earth} className="earth" key="earth" onClick={() => onClickPlanet("earth")}/></a>
-            <a><img src={mars} className="mars" key="mars" onClick={() => onClickPlanet("mars")}/></a>
-            <img src={jupiter} className="jupiter" key="jupiter" onClick={() => onClickPlanet("jupiter")}/>
-            <a><img src={saturn} className="saturn" key="saturn" onClick={() => onClickPlanet("saturn")}/></a>
-            <a><img src={uranus} className="uranus" key="uranus" onClick={() => onClickPlanet("uranus")}/></a>
-            <a><img src={neptune} className="neptune" key="neptune" onClick={() => onClickPlanet("neptune")}/></a>
+            <a><img id="front" src={mercury} className="mercury" key="mercury" onClick={() => onClickPlanet("mercury")}/></a>
+            <a><img id="front" src={venus} className="venus" key="venus" onClick={() => onClickPlanet("venus")}/></a>
+            <a><img id="front" src={earth} className="earth" key="earth" onClick={() => onClickPlanet("earth")}/></a>
+            <a><img id="front" src={mars} className="mars" key="mars" onClick={() => onClickPlanet("mars")}/></a>
+            <a><img id="front" src={jupiter} className="jupiter" key="jupiter" onClick={() => onClickPlanet("jupiter")}/></a>
+            <a><img id="front" src={saturn} className="saturn"  key="saturn" onClick={() => onClickPlanet("saturn")}/></a>
+            <a><img id="front" src={uranus} className="uranus" key="uranus" onClick={() => onClickPlanet("uranus")}/></a>
+            <a><img id="front" src={neptune} className="neptune" key="neptune" onClick={() => onClickPlanet("neptune")}/></a>
 
         </div>
         <div>

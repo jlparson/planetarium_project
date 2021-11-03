@@ -15,7 +15,7 @@ img.mercury{
   height:20px;
   padding-left:20px;
 }
-img.mercury:hover, img.venus:hover, img.earth:hover, img.mars:hover, img.jupiter:hover, img.saturn:hover, img.uranus:hover, img.neptune:hover{
+img#front.mercury:hover, img#front.venus:hover, img#front.earth:hover, img#front.mars:hover, img#front.jupiter:hover, img#front.saturn:hover, img#front.uranus:hover, img#front.neptune:hover{
   opacity: 70%;
   cursor:pointer;
 }
