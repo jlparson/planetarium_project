@@ -14,6 +14,7 @@ import PlanetsDetails  from '../components/PlanetsDetails';
 import '../SpinningPlanets.css'
 import ComparisonContainer from './ComparisonContainer';
 
+
 const PlanetariumContainer = () => {
     const [planets, setPlanets] = useState([]);
     let [planetInfo, setPlanetInfo] = useState(null);
