@@ -7,7 +7,7 @@ const StudentItem = ({ image, fullName, url }) => {
         <div className="studentItem">
             <div style={{ backgroundImage: `url(${image})`}}></div>
             <h2 className="studentName"> {fullName} </h2>
-            <a href={url}><GitHubIcon /></a>
+            <a target="_blank" href={url}><GitHubIcon /></a>
         </div>
     );
 }
