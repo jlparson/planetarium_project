@@ -1,0 +1,36 @@
+.planetInfo{
+    margin-top:100px;
+    margin-bottom: 150px;
+}
+
+.planetInfo > h3{
+    color:white;
+    
+}
+.planetInfo > a{
+    text-decoration: none;
+    color: #000;
+    background-color: #b7b7b7;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #605f5f;
+    border-bottom: 2px solid #605f5f;
+}
+
+.planetInfo > a:hover{
+    opacity: 0.7;
+}
+.planetInfo > a:active{
+    border-top: 2px solid #605f5f;
+    border-left: 2px solid #605f5f;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+p.densityInfo {
+    margin-bottom:30px;
+}
+
+
