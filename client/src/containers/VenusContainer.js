@@ -14,7 +14,7 @@ const Venus = () => {
            
         
             <div className="pageContainer">
-                <div className="PlanetName"><h2>This is Venus</h2></div>
+                <div className="texth2"><h2>This is Venus</h2></div>
                     <div className= "Parent">
                         <div className="singlePlanetContainer">
                             <a className="Venus2" key="Venus2" ></a>
@@ -22,7 +22,7 @@ const Venus = () => {
 
 
 
-                        <div className="PlanetInfotext">
+                        <div className="text">
                             <p>Venus is the second planet from the Sun.
                              It is named after the Roman goddess of love and beauty.
                             As the brightest natural object in Earth's night sky after the Moon,

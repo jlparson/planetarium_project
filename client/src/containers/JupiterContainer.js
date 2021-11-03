@@ -15,7 +15,7 @@ const Jupiter = () => {
            
         
             <div className="pageContainer">
-                <div className="PlanetName"><h2>This is Jupiter</h2></div>
+                <div className="texth2"><h2>This is Jupiter</h2></div>
                     <div className= "Parent">
                         <div className="singlePlanetContainer">
                             <a className="jupiter2" key="jupiter2" ></a>
@@ -23,7 +23,7 @@ const Jupiter = () => {
 
 
 
-                        <div className="PlanetInfotext">
+                        <div className="text">
                             <p>Jupiter is the fifth planet from the Sun and the largest in the Solar System.
                             It is a gas giant with a mass more than two and a half times that of all the other 
                             planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun.

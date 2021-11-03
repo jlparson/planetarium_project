@@ -14,7 +14,7 @@ const Uranus = () => {
            
         
             <div className="pageContainer">
-                <div className="PlanetName"><h2>This is Uranus</h2></div>
+                <div className="texth2"><h2>This is Uranus</h2></div>
                     <div className= "Parent">
                         <div className="singlePlanetContainer">
                             <a className="Uranus2" key="Uranus2" ></a>
@@ -22,7 +22,7 @@ const Uranus = () => {
 
 
 
-                        <div className="PlanetInfotext">
+                        <div className="text">
                             <p>Uranus is the seventh planet from the Sun. 
                             Its name is a reference to the Greek god of the sky,
                              Uranus, who, according to Greek mythology, 

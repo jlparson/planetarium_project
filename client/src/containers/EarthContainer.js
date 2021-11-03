@@ -14,7 +14,7 @@ const Earth = () => {
            
         
             <div className="pageContainer">
-                <div className="PlanetName"><h2>This is Earth</h2></div>
+                <div className="texth2"><h2>This is Earth</h2></div>
                     <div className= "Parent">
                         <div className="singlePlanetContainer">
                             <a className="Earth2" key="Earth2" ></a>
@@ -22,7 +22,7 @@ const Earth = () => {
 
 
 
-                        <div className="PlanetInfotext">
+                        <div className="text">
                             <p>Earth is the third planet from the Sun and the only astronomical object known to harbour and support life.
                              29.2% of Earth's surface is land consisting of continents and islands. 
                             The remaining 70.8% is covered with water, mostly by oceans, seas, gulfs,

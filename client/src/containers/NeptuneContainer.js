@@ -14,7 +14,7 @@ const Neptune  = () => {
            
         
             <div className="pageContainer">
-                <div className="PlanetName"><h2>This is Neptune </h2></div>
+                <div className="texth2"><h2>This is Neptune </h2></div>
                     <div className= "Parent">
                         <div className="singlePlanetContainer">
                             <a className="Neptune2" key="Neptune2" ></a>
@@ -22,7 +22,7 @@ const Neptune  = () => {
 
 
 
-                        <div className="PlanetInfotext">
+                        <div className="text">
                             <p>Neptune is the eighth and farthest-known Solar planet from the Sun. 
                             In the Solar System, it is the fourth-largest planet by diameter,
                              the third-most-massive planet, and the densest giant planet.
