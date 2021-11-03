@@ -5,8 +5,13 @@
 h1{
   color:white;
   padding:10px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
+}
 
+h2{
+  color:white;
+  padding:10px;
+  margin-bottom: 100px;
 }
 
 img:hover{
