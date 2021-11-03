@@ -1,9 +1,4 @@
 import '../SpinningPlanets.css'
-import space from '../assests/space.png';
-import Navbar from '../components/Navbar';
-
-
-
 
 const Neptune  = () => {
   

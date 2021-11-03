@@ -28,7 +28,8 @@
     height: 97vmin;
     width: 97vmin;
     animation: spin 50s infinite linear;
-    margin-top: 50vmin;
+    margin-top: 0vmin;
+    
   }
   
   /* @keyframes spin{
