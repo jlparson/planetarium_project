@@ -5,8 +5,13 @@
 h1{
   color:white;
   padding:10px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
+}
 
+h2{
+  color:white;
+  padding:10px;
+  margin-bottom: 100px;
 }
 
 img:hover{
@@ -16,7 +21,7 @@ img:hover{
 
 img.mercury{
   height:20px;
-  padding:20px;
+  padding-left:20px;
 }
 img.venus{
   height:40px;

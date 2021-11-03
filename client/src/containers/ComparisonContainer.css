@@ -1,14 +1,21 @@
-p{
-    color:white;
-}
-li{
-    color:white;
-}
-h3{
-    color:white;
+.comparisonContainerMainDiv > h1 {
+    margin: 8px;
 }
 
-.itemsForComparison {
+.vs{
+    border: 1px solid white;
+    height: 35px;
+}
+.comparisonItemParent{
     display:flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.firstComparisonItem > h2{
+   color:white;
+   text-align: center;
+}
+ul{
+    width: 200px;
 }
 
