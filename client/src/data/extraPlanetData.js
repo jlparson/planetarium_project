@@ -1,12 +1,10 @@
-const extraData = {
-    Mars: {
-        flavourtext: "lksdjflksdjfsdf",
-        url: "lksdjfsdf.jpg"
-    },
-    Earth: {
-
-    }
+const extraPlanetData = {
+    Earth: "",
+    Mars: ""
 }
+
+
+
 
 export default extraData;
 

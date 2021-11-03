@@ -27,6 +27,7 @@ const PlanetariumContainer = () => {
             setPlanets(planets.bodies.filter(planet => (planet.isPlanet && !planet.englishName.startsWith(1) && !planet.englishName.startsWith("P"))))});
             // 1:Find all stellar bodies that are planets
             // 2: Add our custom data to each planet
+            // loop through the planets, and using the englishName, get the flavolurtext out from the imported extraPlanetData
             // 3: set the planets as before
             
         
@@ -36,7 +37,10 @@ const PlanetariumContainer = () => {
     const onClickPlanet = function (id){
         fetch(`https://api.le-systeme-solaire.net/rest/bodies/${id}`)
         .then(res => res.json())
-        .then(planetInfo => setPlanetInfo(planetInfo))
+        .then(planetInfo => {
+            // update the planetinfo with the paragraph - also can use the englishName
+            setPlanetInfo(planetInfo)
+        })
         
     }
 
