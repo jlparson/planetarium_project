@@ -59,7 +59,7 @@ img.neptune{
   flex-wrap: wrap;
 }
 
-/* 
+
 @media (prefers-reduced-motion: no-preference) {
   .mercury {
     animation: Planet-logo-spin infinite 20s linear;
@@ -79,14 +79,14 @@ img.neptune{
   .mars {
     animation: Planet-logo-spin infinite 20s linear;
   }
-} */
+} 
 
-/* @media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
   .jupiter {
     animation: Planet-logo-spin infinite 20s linear;
   }
-} */
-/* @media (prefers-reduced-motion: no-preference) {
+}
+@media (prefers-reduced-motion: no-preference) {
   .uranus {
     animation: Planet-logo-spin infinite 20s linear;
   }
@@ -104,7 +104,7 @@ img.neptune{
   to {
     transform: rotate(360deg);
   }
-} */
+}
 
 
 
