@@ -12,6 +12,7 @@ import Saturn from './containers/SaturnContainer';
 import Uranus from './containers/UranusContainer';
 import Neptune from './containers/NeptuneContainer';
 import Quiz from './containers/QuizContainer';
+import ExternalLinks from './components/ExternalLinks';
 import ComparisonContainer from './containers/ComparisonContainer';
 import space from './assests/space.png';
 import SolarSystem from './containers/SolarSystemContainer';
@@ -71,6 +72,9 @@ function App() {
           </Route> 
           <Route path="/SolarSystem">
             <SolarSystem />
+          </Route>
+          <Route path="/UsefulLinks">
+            <ExternalLinks />
           </Route>
         </Switch>
       </div>

@@ -1,0 +1,35 @@
+.external-links h1 {
+    margin-top: 0;
+    padding: 30px;
+    background-color: cadetblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 900px;
+    color: black;
+}
+
+.external-links h2 {
+    color: black;
+}
+
+.external-links h3 {
+    color: black;
+}
+
+.external-links > a {
+    color:blue;
+}
+
+.external-links {
+    background-color: lightgray;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.external-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
