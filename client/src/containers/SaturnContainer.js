@@ -2,11 +2,12 @@ import '../SpinningPlanets.css'
 import space from '../assests/space.png';
 import Navbar from '../components/Navbar';
 import saturn from '../assests/Saturn.png';
+import PlanetQuiz from '../components/PlanetQuiz';
 
 
 
 
-const Saturn = () => {
+const Saturn = ({planet}) => {
   
 
 

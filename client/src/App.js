@@ -43,15 +43,9 @@ function App() {
           <Route path="/Mars">
             <Mars />
           </Route>
-        
-                
-                <Route path="/Jupiter">
-                
-               
-                <Jupiter />
-              
+          <Route path="/Jupiter">
+            <Jupiter />
           </Route>
-        
           <Route path="/Saturn">
             <Saturn />
           </Route>
@@ -61,10 +55,7 @@ function App() {
           <Route path="/Neptune">
             <Neptune />
           </Route>
-
-          
           <Route path="/Quiz">
-          
             <Quiz />
           </Route>
           <Route path="/PlanetComparison">
