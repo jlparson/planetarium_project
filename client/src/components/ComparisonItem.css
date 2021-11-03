@@ -1,9 +1,40 @@
+
 p{
     color:white;
 }
 li{
     color:white;
+    list-style-type: none;
+    padding:10px;
+    margin:10px;
+    height: 15px;
+    cursor: pointer;
+    
 }
-h3{
+li:hover{
+    font-size:30px;
+}
+.comparisonInfo > h1{
+    padding-top:60px;
     color:white;
 }
+.comparisonInfo > h2{
+    color:white;
+}
+.comparisonInfo > h3{
+    color:white;
+    margin:5px 0px 30px 0px;
+}
+.comparisonInfo > h4{
+    color:rgb(168, 167, 167);
+    margin:0px;
+}
+.comparisonInfo > img{
+    height:300px;
+    width:300px;
+}
+.comparisonInfo > h1 {
+    margin:0px;
+}
+
+
