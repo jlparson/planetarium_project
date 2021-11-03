@@ -1,0 +1,51 @@
+.about {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+    /* padding: 200px; */
+}
+
+.about .aboutTitle {
+    font-size: 60px;
+}
+
+.aboutStudent {
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    /* padding-bottom: 200px; */
+}
+
+.studentItem {
+    /* border-radius: 15px; */
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    /* padding-bottom: 200px; */
+}
+
+.studentItem div {
+    border-radius: 50%;
+    width: 100%;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.studentItem a svg{
+    color: white;
+    width: 100%;
+    height: 50px;
+    /* padding-bottom: 50px; */
+}
+
+.studentName {
+    padding-bottom: 20px;
+    color: white;
+}
