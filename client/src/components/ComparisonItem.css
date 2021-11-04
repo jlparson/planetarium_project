@@ -14,6 +14,10 @@ li.planetListName {
 li.planetListName:hover{
     font-size:30px;
 }
+.comparisonInfo > p{
+    color:white;
+    font-weight:bold;
+}
 .comparisonInfo > h1{
     padding-top:60px;
     color:white;

@@ -54,7 +54,7 @@ const PlanetariumContainer = () => {
         
     <>
         <div>
-        <h1>Our Planetarium</h1>
+        <h1 className="header">Our Planetarium</h1>
         <h2 className="subheader">Click on a planet for more more information on it.</h2>
         </div>
         <div className="planetContainer">
