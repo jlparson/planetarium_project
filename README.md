@@ -3,15 +3,15 @@ Full-Stack Javascript web application, using Express server, React frontend and 
 
 Aims
 
-To gain experience working in a team with other developers - to understand some of the challenges this creates and ways to overcome them. 
+- To gain experience working in a team with other developers - to understand some of the challenges this creates and ways to overcome them. 
 
-To have the opportunity to use Agile working methods. 
+- To have the opportunity to use Agile working methods. 
 
-To become more confident using Git/GitHub for a multi person project. 
+- To become more confident using Git/GitHub for a multi person project. 
 
-To consolidate learning from the JavaScript module. 
+- To consolidate learning from the JavaScript module. 
 
-To investigate some JavaScript libraries you haven't used before (learning how to read docs is an invaluable skill). 
+- To investigate some JavaScript libraries you haven't used before (learning how to read docs is an invaluable skill). 
 
 Educational App
 
